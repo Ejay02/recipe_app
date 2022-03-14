@@ -55,7 +55,7 @@
           </div>
 
           <button type="submit">Add Recipe</button>
-          <button type="button" @click="togglePopup">Close</button>
+          <button class="edit" type="button" @click="togglePopup">Close</button>
         </form>
       </div>
     </div>
