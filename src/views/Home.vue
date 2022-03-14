@@ -12,6 +12,7 @@
         <p>{{ recipe.description }}</p>
         <router-link :to="`/recipe/${recipe.slug}`">
           <button>View Recipe</button>
+          <span class="edit"><button>Edit</button></span>
         </router-link>
       </div>
     </div>
@@ -170,6 +171,7 @@ h1 {
   display: flex;
   justify-content: center;
   align-items: center;
+  overflow-x: hidden;
 }
 .add-recipe-popup .popup-content {
   background-color: #081c33;
@@ -204,5 +206,8 @@ h1 {
 }
 .popup-content button[type="submit"] {
   margin-right: 1rem;
+}
+.edit {
+  float: right;
 }
 </style>

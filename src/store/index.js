@@ -11,7 +11,7 @@ export default createStore({
         ingredients: [
           "Tomatoes",
           "Pepper",
-          "Garlic (optional",
+          "Garlic (optional)",
           "Ginger(optional)",
           "Groundnut oil",
           "Onions",
